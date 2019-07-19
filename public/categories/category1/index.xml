@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>category1 on Kiera</title>
+    <link>https://www.example.org/categories/category1/</link>
+    <description>Recent content in category1 on Kiera</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2017 - Author Name</copyright>
+    <lastBuildDate>Sat, 03 Mar 2018 13:23:10 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.example.org/categories/category1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>https://www.example.org/posts/first-post/</link>
+      <pubDate>Sat, 03 Mar 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://www.example.org/posts/first-post/</guid>
+      <description>&lt;p&gt;Hello Hugo world! No more excuses for having no blog or documentation now!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

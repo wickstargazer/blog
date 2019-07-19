@@ -1,0 +1,45 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Wickstargazer - Blog"
+  subtitle    = "Coding & Stargazing :: Wickstargazer"
+
+  cover       = "blog-cover.jpg"
+  description = "Technology Futurist, building something useful for them users."
+  metaDescription = "Technology Futurist, building something useful for them users."
+  googleAnalytics = ""
+  customCSS = ["css/screen.css"]
+  RSSLink = ""
+
+  twitterName = "wickyorama"
+  fbName = "WcikStargazing"
+  githubName = "wickstargazer"
+
+  logo = "logo.png"
+  orgName = "WickStargazer"
+  orgWebsite = "https://Wickstargazer.com"
+  orgDescription = "Technology Futurist, building something useful for them users."
+
+  author = "WK"
+  authorAvatar = "https://avatars3.githubusercontent.com/u/1543442?s=400&u=c42e932122a69b19d4a8d6ca2b372a2599e4d930&v=4"
+  authorLocation = "Bangkok, TH"
+  authorWebsite = "https://Wickstargazer.com"
+  authorDescription = "Technology Futurist, building something useful for them users."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200

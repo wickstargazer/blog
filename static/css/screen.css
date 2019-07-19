@@ -1,0 +1,15 @@
+.gist
+{
+    width: 100%;
+}
+.reading-time
+{
+    color:grey;
+    font-size: 12px;
+    float:right;
+    position: relative;
+}
+.post-full-image
+{
+    height: 500px;
+}
