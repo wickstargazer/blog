@@ -26,5 +26,12 @@
                 <p>{{.Params.authorDescription | default .Site.Params.authorDescription}}</p>
         </section>
       </section>
+      <section class="external-credits-card" >
+        <section class="external-credits">
+            {{if .Params.photoBy}}
+                <p>Cover Photo By {{.Params.photoBy }}</p>
+            {{end}}
+        </section>
+    </section>
     </footer>
 </article>

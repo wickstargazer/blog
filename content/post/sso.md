@@ -8,6 +8,7 @@ Categories: ["Security", "Single Sign On"]
 Tags: ["Security", "Single Sign On", ".Net Core"]
 Draft: false
 MinuteRead: 4 MIN READ
+PhotoBy: Nguyen Nguyen from Pexels
 ---
 
 *Single sign on is a single key to multiple resources or locks on a platform.*
