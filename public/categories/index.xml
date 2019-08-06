@@ -1,22 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Kiera</title>
-    <link>https://www.example.org/categories/</link>
-    <description>Recent content in Categories on Kiera</description>
+    <title>Categories on </title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright &amp;copy; 2017 - Author Name</copyright>
-    <lastBuildDate>Sat, 03 Mar 2018 13:23:10 +0100</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>category1</title>
-      <link>https://www.example.org/categories/category1/</link>
-      <pubDate>Sat, 03 Mar 2018 13:23:10 +0100</pubDate>
+      <title>Angular</title>
+      <link>/categories/angular/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.org/categories/category1/</guid>
+      <guid>/categories/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenID</title>
+      <link>/categories/openid/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/openid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>/categories/security/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single Sign On</title>
+      <link>/categories/single-sign-on/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/single-sign-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>/categories/typescript/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generics</title>
+      <link>/categories/generics/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/generics/</guid>
       <description></description>
     </item>
     

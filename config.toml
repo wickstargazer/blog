@@ -21,14 +21,14 @@ paginate        = 6
   githubName = "wickstargazer"
 
   logo = "logo.png"
-  orgName = "WickStargazer"
-  orgWebsite = "https://Wickstargazer.com"
+  orgName = "WickStargazer | CTO @ FlowAccount.com"
+  orgWebsite = "https://wickstargazer.com"
   orgDescription = "Technology Futurist, building something useful for them users."
 
   author = "WK"
   authorAvatar = "https://avatars3.githubusercontent.com/u/1543442?s=400&u=c42e932122a69b19d4a8d6ca2b372a2599e4d930&v=4"
   authorLocation = "Bangkok, TH"
-  authorWebsite = "https://Wickstargazer.com"
+  authorWebsite = "https://wickstargazer.com"
   authorDescription = "Technology Futurist, building something useful for them users."
 
   pageNotFoundTitle = "404 - Page not found"

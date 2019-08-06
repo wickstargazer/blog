@@ -1,23 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kiera</title>
-    <link>https://www.example.org/</link>
-    <description>Recent content on Kiera</description>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright &amp;copy; 2017 - Author Name</copyright>
-    <lastBuildDate>Sat, 03 Mar 2018 13:23:10 +0100</lastBuildDate>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>First Post</title>
-      <link>https://www.example.org/posts/first-post/</link>
-      <pubDate>Sat, 03 Mar 2018 13:23:10 +0100</pubDate>
+      <title>Angular Starter Kit with OpendID Connect (Authorization Code Flow)</title>
+      <link>/angular-starter-kit-with-opendid-connect-authorization-code-flow/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.example.org/posts/first-post/</guid>
-      <description>&lt;p&gt;Hello Hugo world! No more excuses for having no blog or documentation now!&lt;/p&gt;</description>
+      <guid>/angular-starter-kit-with-opendid-connect-authorization-code-flow/</guid>
+      <description>We will get a started app with angular that authenticate itselfs through an OpenID Connect on the nodejs side using Authorization code flow.
+ Disclaimer: I assume the reader understands how to write html/scss and start a basic angular-app or any webpack based site like Vue or Reactjs before reading this blog. If not please visit getting started with angular before going on!Disclaimer: I assume the reader understands how to write html/scss and start a basic angular-app or any webpack based site like Vue or Reactjs before reading this blog.</description>
+    </item>
+    
+    <item>
+      <title>Single Sign On (SSO)</title>
+      <link>/single-sign-on-sso/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/single-sign-on-sso/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Single sign on is a single key to multiple resources or locks on a platform.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Building a generic search/sort</title>
+      <link>/building-a-generic-search/sort/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/building-a-generic-search/sort/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Searching and sorting is the basic building blocks for a web-application. Lets look at how we make it generic for multiple models across the platform. I will focus on using Typescript and .Net technology in this one.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

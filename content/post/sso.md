@@ -62,3 +62,5 @@ There are few basic tricks that is easy to discover and knowing them does take y
 4. Last and not least, do have your introspection collection ready so you can trouble shoot quickly.
 
 These are the absolute basic of the Identity Server Single Sign on (SSO) please stay tuned for more details elaboration of the implementation.
+
+ [Second part -- Angular Starter Kit with Single Signon (Authorization Code Flow)](http://https://wickstargazer.com/angular-starter-kit-with-single-signon-authorization-code-flow)

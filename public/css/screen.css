@@ -1,0 +1,28 @@
+.gist
+{
+    width: 100%;
+}
+.reading-time
+{
+    color:grey;
+    font-size: 12px;
+    float:right;
+    position: relative;
+}
+.post-full-image
+{
+    height: 500px;
+}
+.author-card, .post-full-footer {
+    flex-wrap: wrap;
+}
+.external-credits-card {
+    flex: 1 1 100%;
+}
+.external-credits
+{
+    margin-top: 10px;
+    padding-left: 77px;
+    font-style:italic;
+    font-size:10px;
+}
