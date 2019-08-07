@@ -4,8 +4,7 @@ Description: Single sign on is a single key to multiple resources or locks on a 
 Date: 2019-06-21
 Lastmod: 2019-06-21
 Author: Wickstargazer
-Image: /post/images/sso.png
-Cover: https://wickstargazer.com/post/images/sso.png
+image: post/images/sso.png
 Categories: ["Security", "Single Sign On"]
 Tags: ["Security", "Single Sign On", ".Net Core"]
 Draft: false
