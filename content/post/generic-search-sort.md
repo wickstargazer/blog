@@ -3,7 +3,9 @@ Title: "Building a generic search/sort"
 Date: 2019-01-20
 Lastmod: 2019-01-20
 Author: Wickstargazer
-image: /post/images/search_sort.jpeg
+Description: How we make it generic for multiple models across the platform
+Image: /post/images/search_sort.jpeg
+Cover: https://wickstargazer.com/post/images/earch_sort.jpeg
 Categories: ["Typescript", "Generics"]
 Tags: ["Typescript", "ES6", "Generics"]
 Draft: false
