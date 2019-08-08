@@ -135,6 +135,8 @@ res.render(join(DIST_FOLDER, 'browser', 'index.html'), {
 ```
 
 
+[First part -- Single Sign On (SSO)](https://www.wickstargazer.com/single-sign-on-sso/)
+
 *The third part of the series will be showing the implentation of the actual identity server*
 
 
