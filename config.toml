@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "https://wickstargazer.com/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""

@@ -16,7 +16,7 @@ PhotoBy: Markus Spiske temporausch.com from Pexels
 
 <!--more-->
 
-> Disclaimer: I assume the reader understands how to write html/scss and start a basic angular-app or any webpack based site like Vue or Reactjs before reading this blog. If not please visit [getting started with angular before going on!](https://angular.io/start "getting started with angular before going on!")Disclaimer: I assume the reader understands how to write html/scss and start a basic angular-app or any webpack based site like Vue or Reactjs before reading this blog. If not please visit [getting started with angular before going on!](https://angular.io/start "getting started with angular before going on!")
+> Disclaimer: I assume the reader understands how to write html/scss and start a basic angular-app or any webpack based site like Vue or Reactjs before reading this blog. If not please visit [getting started with angular before going on!](https://angular.io/start "getting started with angular before going on!")
 
 Choosing a technology to develop is as confusing and as hard as choosing where to take your partner on an exiting date that will close the deal! After all the hard research and trials and errors, if you end up with angular typescript then you are reading the correct article on how to get started!
 
