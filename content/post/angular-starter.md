@@ -4,7 +4,7 @@ Date: 2019-06-21
 Lastmod: 2019-06-21
 Author: Wickstargazer
 Description: How to startup a universal angular app that integrates with a Single Signon Server using the authorization code flow.
-image: post/images/angular_starter.jpg
+image: post/images/angular_nodejs.png
 Categories: ["Angular", "OpenID", "TypeScript", "SSO"]
 Tags: ["Web Development", "OpenID", "Angular", "TypeScript", "SSO"]
 Draft: false
