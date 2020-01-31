@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Single Sign On on </title>
-    <link>http://localhost:1313/categories/single-sign-on/</link>
+    <link>https://wickstargazer.com/categories/single-sign-on/</link>
     <description>Recent content in Single Sign On on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/single-sign-on/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wickstargazer.com/categories/single-sign-on/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Single Sign On (SSO)</title>
-      <link>http://localhost:1313/single-sign-on-sso/</link>
+      <link>https://wickstargazer.com/single-sign-on-sso/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/single-sign-on-sso/</guid>
+      <guid>https://wickstargazer.com/single-sign-on-sso/</guid>
       <description>&lt;p&gt;&lt;em&gt;Single sign on is a single key to multiple resources or locks on a platform.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     

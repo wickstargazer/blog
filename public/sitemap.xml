@@ -3,182 +3,182 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://wickstargazer.com/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/autocomplete/</loc>
+    <loc>https://wickstargazer.com/categories/autocomplete/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/autocomplete/</loc>
+    <loc>https://wickstargazer.com/tags/autocomplete/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://wickstargazer.com/categories/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/elasticsearch/</loc>
+    <loc>https://wickstargazer.com/categories/elasticsearch/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/elasticsearch/</loc>
+    <loc>https://wickstargazer.com/tags/elasticsearch/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/elasticsearch-typeahead-101/</loc>
+    <loc>https://wickstargazer.com/elasticsearch-typeahead-101/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://wickstargazer.com/post/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/typeahead/</loc>
+    <loc>https://wickstargazer.com/tags/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/typeahead/</loc>
+    <loc>https://wickstargazer.com/categories/typeahead/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/web-development/</loc>
+    <loc>https://wickstargazer.com/tags/typeahead/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/.net-core/</loc>
+    <loc>https://wickstargazer.com/tags/web-development/</loc>
+    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wickstargazer.com/tags/.net-core/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/angular/</loc>
+    <loc>https://wickstargazer.com/categories/angular/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/angular/</loc>
+    <loc>https://wickstargazer.com/tags/angular/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/angular-with-nodejs-and-single-signon-authorization-code-flow/</loc>
+    <loc>https://wickstargazer.com/angular-with-nodejs-and-single-signon-authorization-code-flow/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/openid/</loc>
-    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/openid/</loc>
+    <loc>https://wickstargazer.com/categories/openid/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/sso/</loc>
+    <loc>https://wickstargazer.com/tags/openid/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/sso/</loc>
+    <loc>https://wickstargazer.com/categories/sso/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/security/</loc>
+    <loc>https://wickstargazer.com/tags/sso/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/security/</loc>
+    <loc>https://wickstargazer.com/categories/security/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/single-sign-on/</loc>
+    <loc>https://wickstargazer.com/tags/security/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/single-sign-on/</loc>
+    <loc>https://wickstargazer.com/categories/single-sign-on/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/single-sign-on-sso/</loc>
-    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/typescript/</loc>
+    <loc>https://wickstargazer.com/tags/single-sign-on/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/typescript/</loc>
+    <loc>https://wickstargazer.com/single-sign-on-sso/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wickstargazer.com/categories/typescript/</loc>
     <lastmod>2019-06-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/building-a-generic-search/sort/</loc>
+    <loc>https://wickstargazer.com/tags/typescript/</loc>
+    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wickstargazer.com/building-a-generic-search/sort/</loc>
     <lastmod>2019-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/es6/</loc>
-    <lastmod>2019-01-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/generics/</loc>
+    <loc>https://wickstargazer.com/tags/es6/</loc>
     <lastmod>2019-01-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/generics/</loc>
+    <loc>https://wickstargazer.com/categories/generics/</loc>
+    <lastmod>2019-01-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wickstargazer.com/tags/generics/</loc>
     <lastmod>2019-01-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
