@@ -2,93 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>.Net Core</title>
-      <link>/tags/.net-core/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      <title>Autocomplete</title>
+      <link>http://localhost:1313/tags/autocomplete/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/.net-core/</guid>
+      <guid>http://localhost:1313/tags/autocomplete/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Angular</title>
-      <link>/tags/angular/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      <title>Elasticsearch</title>
+      <link>http://localhost:1313/tags/elasticsearch/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/angular/</guid>
+      <guid>http://localhost:1313/tags/elasticsearch/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>OpenID</title>
-      <link>/tags/openid/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      <title>Typeahead</title>
+      <link>http://localhost:1313/tags/typeahead/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/openid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Security</title>
-      <link>/tags/security/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Single Sign On</title>
-      <link>/tags/single-sign-on/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/single-sign-on/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TypeScript</title>
-      <link>/tags/typescript/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/typescript/</guid>
+      <guid>http://localhost:1313/tags/typeahead/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web Development</title>
-      <link>/tags/web-development/</link>
+      <link>http://localhost:1313/tags/web-development/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.Net Core</title>
+      <link>http://localhost:1313/tags/.net-core/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/web-development/</guid>
+      <guid>http://localhost:1313/tags/.net-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>http://localhost:1313/tags/angular/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenID</title>
+      <link>http://localhost:1313/tags/openid/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/openid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSO</title>
+      <link>http://localhost:1313/tags/sso/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/sso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single Sign On</title>
+      <link>http://localhost:1313/tags/single-sign-on/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/single-sign-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>http://localhost:1313/tags/typescript/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/typescript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ES6</title>
-      <link>/tags/es6/</link>
+      <link>http://localhost:1313/tags/es6/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/es6/</guid>
+      <guid>http://localhost:1313/tags/es6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Generics</title>
-      <link>/tags/generics/</link>
+      <link>http://localhost:1313/tags/generics/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/generics/</guid>
+      <guid>http://localhost:1313/tags/generics/</guid>
       <description></description>
     </item>
     

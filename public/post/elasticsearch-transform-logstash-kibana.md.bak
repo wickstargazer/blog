@@ -1,0 +1,169 @@
+---
+Title: "Elasticsearch Transform Logstash Kibana (ETLK)"
+Date: 2019-09-23
+Lastmod: 2019-09-23
+Author: Wickstargazer
+Description: The ETLK stack explainations and implementation.
+image: post/images/elk.png
+Categories: ["Elasticsearch", "Logstash", "Kibana"]
+Tags: ["Web Development","Elasticsearch", "Logstash", "Kibana"]
+Draft: true
+MinuteRead: 4 MIN READ
+---
+
+*In this article, we will talk about talk about how to utilize Elasticsearch for metrics analysis base on both time sensitivity and model sensitivity*
+
+```
+collect:
+    handler: src/event/handler.collect
+    events:
+      - http:
+          method: post
+          path: collect
+          cors:
+            origins:
+                - '*'
+            headers:
+                - Content-Type
+                - Authorization
+            allowCredentials: true
+          authorizer: ${self:provider.environment.AUTHORIZOR_FUNC}
+```
+
+```
+export const collect: APIGatewayProxyHandler = async (event, _context) => {
+  const firehose: any = new firehoser.JSONDeliveryStream(process.env.FIREHOSE_STREAM);
+  firehose.putRecord(event);
+  return {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: "Put request sent to firehose",
+      input: event,
+    }, null, 2),
+  };
+};
+```
+```
+export const transform: any = async (event, _context, callback) => {
+  const records: Array<any> = event['records'];
+  try {
+    await sql.connect(process.env.SQL_CONNECTION_STRING);
+    records.forEach(async (record, index) => {
+      
+      // transform the record into what you'd like!
+
+      this[index] = record;
+    });
+    await sql.close();
+  } catch (ex) {
+    callback(ex);
+  } finally {
+    callback(null, { records: records });
+    // return Promise.resolve({ records: records })
+  }
+};
+```
+```
+{
+    "customer": {
+        "id": "customer_1",
+        "created": 1492605754,
+        "email": "customer_1@flowaccount.com",
+        "name": "Customer 1",
+        "display_image": "https://logo.jpg",
+        "display_name": "Customer 1",
+        "notes": "Here are some notes",
+        "ltv": 0,
+        "is_active": false,
+        "is_canceled": false,
+        "current_mrr": 0,
+        "active_plan": {
+           "id": xx,
+           "name": "example",
+           "spent": 0,
+           "date": "2017-05-02T10:26:27.95"
+        },
+        "referrer": {
+         "channel": "Web",
+         "referrer": null,
+         "source": null,
+         "medium": null,
+         "campaign": null,
+        }
+    },
+    "environment": "Staging";
+    "channel": "Web";
+    "event_id": 1001;
+    "event_keywords": "example_event";
+    "timestamp": "2019-06-30T17:23:10Z",
+    "payload": {
+        "example_attribute" : "example_string"
+    }
+}
+```
+
+```
+export class Customer {
+    public oid: string;
+    public source_id: string;
+    public source: string;
+    public created: Date;
+    public email: string;
+    public name: string;
+    public display_image: string;
+    public display_name: string;
+    public notes: string;
+    public ltv: number;
+    public is_active: boolean;
+    public is_canceled: false;
+    public current_mrr: number;
+    public current_plans: Array<Plan>;
+    public referral_source: ReferralSource;
+    public last_seen: Date;
+}
+export class Subscription {
+    public id: string;
+    public type: SubscriptionEnum;
+    public info: Info;
+    public occured_at: Date;
+    public received_at: Date;
+    public customer: Customer;
+    public plan: Plan;
+}
+```
+```
+output {
+  amazon_es {
+        hosts => ["YOUR_ENDPOINT"]
+        region => "YOUR_REGION"
+        aws_access_key_id => 'YOUR_KEY'
+        aws_secret_access_key => 'YOUR_SECRET'
+        index => "your-reporting-index"
+  }
+}
+input { jdbc {
+    statement => "SELECT id, mycolumn1, mycolumn2 FROM my_table WHERE id > :sql_last_value"
+    use_column_value => true
+    tracking_column => "id"
+    # ... other configuration bits
+  }
+}
+filter {
+  mutate {
+    gsub => ["message", "[\r\n\']", ""]
+  }
+}
+```
+```
+.es(q="EventId:36 AND Spent:>0",metric=cardinality:CompanyId)
+.multiply(.es(q="EventId:36 AND Spent:>0",metric=avg:Spent)).bars().label("Document Create ARR")
+
+.subtract(.es(q="EventId:77",metric=sum:Spent).bars().label("Net New ARR")
+.add(.es(q="EventId:128",metric=sum:Spent).label("Renew"))
+.add(.es(q="EventId:129",metric=sum:Spent).label("Expand")))
+
+,(.es(q="EventId:77",metric=sum:Spent).bars().label("Net New ARR")
+.add(.es(q="EventId:128",metric=sum:Spent).label("Renew"))
+.add(.es(q="EventId:129",metric=sum:Spent).label("Expand")))
+.title("ARR")
+```

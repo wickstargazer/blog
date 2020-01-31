@@ -2,31 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TypeScript on </title>
-    <link>/tags/typescript/</link>
+    <link>http://localhost:1313/tags/typescript/</link>
     <description>Recent content in TypeScript on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Angular Starter Kit with OpendID Connect (Authorization Code Flow)</title>
-      <link>/angular-starter-kit-with-opendid-connect-authorization-code-flow/</link>
+      <title>Angular Starter Kit with Single Signon (Authorization Code Flow)</title>
+      <link>http://localhost:1313/angular-starter-kit-with-single-signon-authorization-code-flow/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/angular-starter-kit-with-opendid-connect-authorization-code-flow/</guid>
-      <description>We will get a started app with angular that authenticate itselfs through an OpenID Connect on the nodejs side using Authorization code flow.
- Disclaimer: I assume the reader understands how to write html/scss and start a basic angular-app or any webpack based site like Vue or Reactjs before reading this blog. If not please visit getting started with angular before going on!Disclaimer: I assume the reader understands how to write html/scss and start a basic angular-app or any webpack based site like Vue or Reactjs before reading this blog.</description>
+      <guid>http://localhost:1313/angular-starter-kit-with-single-signon-authorization-code-flow/</guid>
+      <description>&lt;p&gt;&lt;em&gt;In this article, we will talk about how to startup a universal angular app that integrates with a Single Signon Server using the authorization code flow. The github repo is available inside. It is the second part of the SSO series that focus on the front-end app connectivity&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Building a generic search/sort</title>
-      <link>/building-a-generic-search/sort/</link>
+      <link>http://localhost:1313/building-a-generic-search/sort/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/building-a-generic-search/sort/</guid>
+      <guid>http://localhost:1313/building-a-generic-search/sort/</guid>
       <description>&lt;p&gt;&lt;em&gt;Searching and sorting is the basic building blocks for a web-application. Lets look at how we make it generic for multiple models across the platform. I will focus on using Typescript and .Net technology in this one.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     

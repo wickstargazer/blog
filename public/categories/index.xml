@@ -2,66 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on </title>
-    <link>/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Autocomplete</title>
+      <link>http://localhost:1313/categories/autocomplete/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/autocomplete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elasticsearch</title>
+      <link>http://localhost:1313/categories/elasticsearch/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/elasticsearch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typeahead</title>
+      <link>http://localhost:1313/categories/typeahead/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/typeahead/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Angular</title>
-      <link>/categories/angular/</link>
+      <link>http://localhost:1313/categories/angular/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/angular/</guid>
+      <guid>http://localhost:1313/categories/angular/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OpenID</title>
-      <link>/categories/openid/</link>
+      <link>http://localhost:1313/categories/openid/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/openid/</guid>
+      <guid>http://localhost:1313/categories/openid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSO</title>
+      <link>http://localhost:1313/categories/sso/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/sso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Security</title>
-      <link>/categories/security/</link>
+      <link>http://localhost:1313/categories/security/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/security/</guid>
+      <guid>http://localhost:1313/categories/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Single Sign On</title>
-      <link>/categories/single-sign-on/</link>
+      <link>http://localhost:1313/categories/single-sign-on/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/single-sign-on/</guid>
+      <guid>http://localhost:1313/categories/single-sign-on/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TypeScript</title>
-      <link>/categories/typescript/</link>
+      <link>http://localhost:1313/categories/typescript/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/typescript/</guid>
+      <guid>http://localhost:1313/categories/typescript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Generics</title>
-      <link>/categories/generics/</link>
+      <link>http://localhost:1313/categories/generics/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/generics/</guid>
+      <guid>http://localhost:1313/categories/generics/</guid>
       <description></description>
     </item>
     

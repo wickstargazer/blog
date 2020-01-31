@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ES6 on </title>
-    <link>/tags/es6/</link>
+    <link>http://localhost:1313/tags/es6/</link>
     <description>Recent content in ES6 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 20 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/es6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Building a generic search/sort</title>
-      <link>/building-a-generic-search/sort/</link>
+      <link>http://localhost:1313/building-a-generic-search/sort/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/building-a-generic-search/sort/</guid>
+      <guid>http://localhost:1313/building-a-generic-search/sort/</guid>
       <description>&lt;p&gt;&lt;em&gt;Searching and sorting is the basic building blocks for a web-application. Lets look at how we make it generic for multiple models across the platform. I will focus on using Typescript and .Net technology in this one.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     

@@ -2,23 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular on </title>
-    <link>/categories/angular/</link>
+    <link>http://localhost:1313/categories/angular/</link>
     <description>Recent content in Angular on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/angular/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/angular/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Angular Starter Kit with OpendID Connect (Authorization Code Flow)</title>
-      <link>/angular-starter-kit-with-opendid-connect-authorization-code-flow/</link>
+      <title>Angular Starter Kit with Single Signon (Authorization Code Flow)</title>
+      <link>http://localhost:1313/angular-starter-kit-with-single-signon-authorization-code-flow/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/angular-starter-kit-with-opendid-connect-authorization-code-flow/</guid>
-      <description>We will get a started app with angular that authenticate itselfs through an OpenID Connect on the nodejs side using Authorization code flow.
- Disclaimer: I assume the reader understands how to write html/scss and start a basic angular-app or any webpack based site like Vue or Reactjs before reading this blog. If not please visit getting started with angular before going on!Disclaimer: I assume the reader understands how to write html/scss and start a basic angular-app or any webpack based site like Vue or Reactjs before reading this blog.</description>
+      <guid>http://localhost:1313/angular-starter-kit-with-single-signon-authorization-code-flow/</guid>
+      <description>&lt;p&gt;&lt;em&gt;In this article, we will talk about how to startup a universal angular app that integrates with a Single Signon Server using the authorization code flow. The github repo is available inside. It is the second part of the SSO series that focus on the front-end app connectivity&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
