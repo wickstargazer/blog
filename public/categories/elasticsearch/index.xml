@@ -18,7 +18,8 @@
       
       <guid>http://localhost:1313/elasticsearch-typeahead-101/</guid>
       <description>In this article, we will talk about talk about how to Elasticsearch Typeahead (Auto-complete) 101 with the Thai Language
-To start off, we often come across those scaling hurdles as a startup when things are going well and users are actually adopting the product that we built. The hurdles always pop up and slow us down in the second year because we tend to build fast to get fast feedback and pivot even faster in the early days.</description>
+In lean development of a product we never plan for scale, but when things are going well performance starts to become a technical debt that we cannot look over and overcome with quick fixes.
+Journey of the noob! When starting off your first startup its never in the skill-set to plan just enough to finish a product that scale.</description>
     </item>
     
   </channel>

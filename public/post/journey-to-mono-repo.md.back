@@ -1,0 +1,14 @@
+---
+Title: "Journey to the center of Mono-Repository"
+Date: 2020-02-01
+Lastmod: 2020-02-01
+Author: Wickstargazer
+Description: Discovering the zen path with mono-repository
+image: post/images/angular_nodejs.png
+Categories: ["Nx workspace", "TypeScript", "Mono-repo", "Monolith", "Microservices"]
+Tags: ["Nx workspace", "TypeScript", "Mono-repo", "Monolith", "Microservices"]
+Draft: false
+MinuteRead: 4 MIN READ 
+---
+
+*In this article we will explore how we can use angular schematic to build a sustainable CI/CD tool chain*

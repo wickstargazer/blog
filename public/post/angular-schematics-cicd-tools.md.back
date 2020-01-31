@@ -1,0 +1,14 @@
+---
+Title: "Building CI/CD tool chain with Angular Schematics"
+Date: 2020-02-01
+Lastmod: 2020-02-01
+Author: Wickstargazer
+Description: Building CI/CD tool chain with Angular Schematics.
+image: post/images/angular_nodejs.png
+Categories: ["DevOps", "Angular", "Schematics", "TypeScript", "CI/CD", "Serverless"]
+Tags: ["DevOps", "Angular", "Schematics", "TypeScript", "CI/CD", "Serverless"]
+Draft: false
+MinuteRead: 4 MIN READ
+---
+
+*In this article we will explore how we can use angular schematic to build a sustainable CI/CD tool chain*
