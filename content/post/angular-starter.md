@@ -110,7 +110,25 @@ It checks for cookie as a base. I have not configured the cookie to be http-only
 
 **Security wise, both Bearer and Http-Only Cookie are secure because no external javascript can add Header to an ajax request or site request. however there are other ways to prevent XSS and Cookie fraud attacks. One such way is to use XRSF token to re-identify the request. Lets talk about that in another Blog! And for now, its secure enough to get started!**
 
-I will not dig into the `/login`,`/callback`,`/logout` and `/register` at this moment since it re-uses the wrapper but just make sure the routes are handled by the server-side.
+This is the callback function that runs after the server has authenticated the user and post back the token to our callback url!
+```
+app.post('/callback', async (req, res) => {
+   let state = await stateGenerated();
+   client.authorizationCallback(config.redirect_uri, req.body, { state }).then(function (tokenSet) {
+       res.cookie('your_token_name', tokenSet.access_token, { httpOnly: false, domain: config.cookiesDomain });
+       res.cookie('your_refresh_token_name', tokenSet.refresh_token, { httpOnly: true, domain: config.cookiesDomain });
+       res.redirect('/');
+   }, function (err) {
+       console.log(err);
+       res.cookie('your_token_name', '', { expires: new Date(0) , httpOnly: false, domain: config.cookiesDomain });
+       res.cookie('your_refresh_token_name', '', { expires: new Date(0), httpOnly: true, domain: config.cookiesDomain });
+       res.redirect(config.redirect_uri);
+       console.log('retry.');
+   })
+});
+```
+
+I will not dig into the `/login`,`/logout` and `/register` at this moment since it re-uses the wrapper but just make sure the routes are handled by the server-side.
 
 So this is the main entry point for your angular app.
 
