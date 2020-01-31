@@ -1,5 +1,5 @@
 ---
-Title: "Angular Starter Kit with Single Signon (Authorization Code Flow)"
+Title: "Angular with NodeJs and Single Signon (Authorization Code Flow)"
 Date: 2019-06-21
 Lastmod: 2019-06-21
 Author: Wickstargazer
